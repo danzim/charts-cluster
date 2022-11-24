@@ -1,0 +1,36 @@
+{ 
+    "ci": "ci-00220022", 
+    "displayName": "lan-ref_Project-1", 
+    "description": "This is a sample description...", 
+    "cluster": "lan-ref-001", 
+    "ciApplication": "ci-87654321", 
+    "ioNumber": "io-12345678", 
+    "plkId": "PLK01", 
+    "egressIP": "false", 
+    "dsk": "3", 
+    "quota": { 
+        "objects": { 
+            "cm": "10", 
+            "pvc": "0", 
+            "pod": "6" 
+        }, 
+        "resources": { 
+            "cpu": "4000", 
+            "mem": "2048" 
+        } 
+    }, 
+    "rbac": { 
+        "owner": [ 
+            "U005" 
+        ], 
+        "member": [ 
+            "U001", 
+            "U002" 
+        ], 
+        "viewer": [ 
+            "U003", 
+            "U004" 
+        ] 
+    }, 
+    "labels": ["testLabel: \"true\""] 
+} 
